@@ -1,0 +1,44 @@
+UCLA nets 1.0
+# Sample VLSI benchmark - NetDegree format
+# 10 cells, 8 nets
+
+NetDegree : 3  net1
+c1 I
+c2 I
+c3 O
+
+NetDegree : 4  net2
+c1 O
+c4 I
+c5 I
+c6 I
+
+NetDegree : 2  net3
+c2 O
+c4 I
+
+NetDegree : 3  net4
+c3 I
+c5 O
+c7 I
+
+NetDegree : 4  net5
+c6 O
+c7 O
+c8 I
+c9 I
+
+NetDegree : 3  net6
+c4 O
+c8 O
+c10 I
+
+NetDegree : 2  net7
+c9 O
+c10 I
+
+NetDegree : 4  net8
+c2 I
+c5 I
+c8 O
+c10 O
