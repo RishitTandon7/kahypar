@@ -1,0 +1,26 @@
+# Ignore Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and Output files
+*.part*
+*.hgr
+*.csv
+*report.txt
+tmp_*/
+Temp/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Virtual environments
+.env
+venv*/
+env/
+ENV/
+
+# KaHyPar clone directory (if downloaded inside this repo)
+kahypar/
